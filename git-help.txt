@@ -1,6 +1,20 @@
+
+OPEREACIONES CON LAS RAMAS (branch)
+
+- Listado de ramas: git branch 
+
+- Crear una rama: git branch MiRama 
+
+- Ir a la rama : git checkout MiRama 
+- Ir a la rama master: git checkout master 
+
+- Eliminar una rama: git branch -d MiRama 
+
+
+
+OPERACIONES CON REPOSITORIOS EN GITHUB 
 Para el repositorio: 
 https://github.com/joseluisdavid/git-help.git
-
 
 1. Crear un nuevo repositorio en linea de comando: 
 echo "# git-help" >> README.md
@@ -11,9 +25,10 @@ git remote add origin https://github.com/joseluisdavid/git-help.git
 git push -u origin master
 
 2. Hacer un push a uno de los repositorios existentes
-
 git remote add origin https://github.com/joseluisdavid/git-help.git
 git push -u origin master
+
+
 
 
 
