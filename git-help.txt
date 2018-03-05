@@ -1,0 +1,19 @@
+Para el repositorio: 
+https://github.com/joseluisdavid/git-help.git
+
+
+1. Crear un nuevo repositorio en linea de comando: 
+echo "# git-help" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/joseluisdavid/git-help.git
+git push -u origin master
+
+2. Hacer un push a uno de los repositorios existentes
+
+git remote add origin https://github.com/joseluisdavid/git-help.git
+git push -u origin master
+
+
+
