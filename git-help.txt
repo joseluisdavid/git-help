@@ -28,6 +28,23 @@ git push -u origin master
 git remote add origin https://github.com/joseluisdavid/git-help.git
 git push -u origin master
 
+OPERACIONES CON TAGs 
+1. Crear tag del master: 
+git tag -a <Nombre del tag> -m <Mensaje asociado>
+
+2. Crear un tag a través del commit
+git tag -a <Nombre del tag> -m <Mensaje asociado> <Identificador del tag>
+
+3. Eliminar el tag 
+git tag -d <Nombre del tag>
+
+
+4. subir el tag a github 
+git push origin <Nombre del tag>
+
+5. subir todos los tags de golpe
+git push origin --tags
+
 
 
 
